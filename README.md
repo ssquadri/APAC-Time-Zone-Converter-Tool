@@ -4,7 +4,7 @@
 
 A clean, responsive, single-file HTML tool for converting and visualizing timezones across APAC, US, and Europe.
 
-👉 Live Demo: [[GitHub Pages Link](https://ssquadri.github.io/APAC-Time-Zone-Converter-Tool/)]
+👉 Live Demo: [[Link](https://ssquadri.github.io/APAC-Time-Zone-Converter-Tool/)]
 
 ✨ Features
 
