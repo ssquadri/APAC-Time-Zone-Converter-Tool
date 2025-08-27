@@ -8,7 +8,7 @@ A clean, responsive, single-file HTML tool for converting and visualizing timezo
 
 
 
-.
+
 ✨ Features
 
 ⚡ Single HTML file – no external frameworks, super lightweight
@@ -28,7 +28,7 @@ A clean, responsive, single-file HTML tool for converting and visualizing timezo
 
 
 
-.
+
 🚀 Why I Built This
 
 Coordinating meetings across different timezones can be messy.
@@ -45,7 +45,7 @@ Together, it became a polished, useful tool in just a short span of time.
 
 
 
-.
+
 🛠️ Tech Stack
 
 Pure HTML, CSS, JavaScript
@@ -59,7 +59,7 @@ Hosted on GitHub Pages
 
 
 
-.
+
 🌟 How to Use
 
 Open the live demo or your local index.html file in any browser.
@@ -72,7 +72,7 @@ Copy/share the link to share the exact time setup with teammates.
 
 
 
-.
+
 💡 Future Ideas
 
 Option to change snapping interval (15m, 30m, 1h)
@@ -82,7 +82,7 @@ Export selected times to calendar
 More timezone presets
 
 
-.
+
 🤝 Contributions
 
 Pull requests and suggestions are welcome! If you’ve got ideas to improve usability or features, feel free to open an issue or PR.
