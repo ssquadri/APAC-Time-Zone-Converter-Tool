@@ -6,6 +6,8 @@ A clean, responsive, single-file HTML tool for converting and visualizing timezo
 
 👉 Live Demo: [[Link](https://ssquadri.github.io/APAC-Time-Zone-Converter-Tool/)]
 
+
+
 ✨ Features
 
 ⚡ Single HTML file – no external frameworks, super lightweight
@@ -22,6 +24,8 @@ A clean, responsive, single-file HTML tool for converting and visualizing timezo
 
 🎯 Quick-Select Chips – jump to common meeting times instantly
 
+
+
 🚀 Why I Built This
 
 Coordinating meetings across different timezones can be messy.
@@ -35,6 +39,8 @@ I focused on logic, problem-solving, and fine-tuning usability
 
 Together, it became a polished, useful tool in just a short span of time.
 
+
+
 🛠️ Tech Stack
 
 Pure HTML, CSS, JavaScript
@@ -45,9 +51,7 @@ Runs directly in the browser
 
 Hosted on GitHub Pages
 
-📸 Screenshots
 
-(Add here: a screenshot of the dark/light UI and the draggable pin in action)
 
 🌟 How to Use
 
@@ -59,6 +63,8 @@ Drag the red pin or use arrow keys (←/→) to move time in 30-minute steps.
 
 Copy/share the link to share the exact time setup with teammates.
 
+
+
 💡 Future Ideas
 
 Option to change snapping interval (15m, 30m, 1h)
@@ -67,9 +73,13 @@ Export selected times to calendar
 
 More timezone presets
 
+
+
 🤝 Contributions
 
 Pull requests and suggestions are welcome! If you’ve got ideas to improve usability or features, feel free to open an issue or PR.
+
+
 
 📜 License
 
