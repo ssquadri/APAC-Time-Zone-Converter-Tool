@@ -641,7 +641,7 @@
         <div class="header">
             <h1>Timeline Timezone Converter</h1>
             <p>Easily convert and compare times across different timezones with visual timelines(Made by Syed S Quadri )</p>
-            
+
             <div class="nav-tabs">
                 <div class="nav-tab active" data-tab="converter">Converter</div>
                 <div class="nav-tab" data-tab="difference">Time Difference</div>
@@ -671,9 +671,9 @@
                             <option value="Europe/London">🇬🇧 Greenwich Mean Time (GMT)</option>
                         </select>
                     </div>
-                    
+
                     <div style="font-size: 1.5rem; color: var(--text-light); display: flex; align-items: center;">to</div>
-                    
+
                     <div class="timezone-input">
                         <select class="timezone-select" id="toTimezone">
                             <option value="Australia/Adelaide">🇦🇺 Australia Central Standard Time (ACST)</option>
@@ -692,7 +692,7 @@
                     </div>
 
                     <input type="date" class="date-input" id="dateInput">
-                    
+
                     <div class="control-buttons">
                         <div class="control-btn" onclick="addTimezone()" title="Add timezone"><i class="fas fa-plus"></i></div>
                         <div class="control-btn" onclick="swapTimezones()" title="Swap timezones"><i class="fas fa-exchange-alt"></i></div>
@@ -802,17 +802,17 @@
             <div class="converter-section">
                 <h2>Timezone Comparison Table</h2>
                 <p>Compare the current time across multiple timezones</p>
-                
+
                 <div class="timezone-search">
                     <i class="fas fa-search"></i>
                     <input type="text" placeholder="Search timezones..." id="timezoneSearch">
                     <div class="timezone-options" id="timezoneOptions"></div>
                 </div>
-                
+
                 <div class="selected-timezones" id="selectedTimezones">
                     <!-- Will be populated by JavaScript -->
                 </div>
-                
+
                 <table class="timezone-table">
                     <thead>
                         <tr>
@@ -852,6 +852,7 @@
 
     <div class="toast" id="toast"></div>
 
+    <script src="timezone.js"></script>
     <script>
         // Enhanced timezone data with offsets
         const timezoneData = {
@@ -955,14 +956,6 @@
             document.getElementById('timezoneSearch').addEventListener('input', filterTimezones);
         }
 
-        function formatTime(hour24) {
-            const hour = Math.floor(hour24);
-            const minute = Math.round((hour24 - hour) * 60);
-            const period = hour >= 12 ? 'PM' : 'AM';
-            const displayHour = hour % 12 || 12;
-            const displayMinute = minute.toString().padStart(2, '0');
-            return `${displayHour}:${displayMinute} ${period}`;
-        }
 
         function formatOffset(offset) {
             const sign = offset >= 0 ? '+' : '-';

@@ -1,0 +1,16 @@
+
+{
+  "name": "apac-time-zone-converter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "APAC time-zone converter with an automated DevOps CI pipeline",
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint timezone.js tests/",
+    "validate:html": "html-validate index.html"
+  },
+  "devDependencies": {
+    "eslint": "^10.13.0",
+    "html-validate": "^11.17.0"
+  }
+}
